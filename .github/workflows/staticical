@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Mundo Reyes - Museo Tumbas Reales de Sipán</title>
+  <style>
+    body {
+      font-family: Arial, sans-serif;
+      margin: 0;
+      background-color: #fff8e1;
+      color: #4e342e;
+    }
+    header {
+      background-color: #b71c1c;
+      color: white;
+      padding: 20px;
+      text-align: center;
+    }
+    h1 {
+      margin: 0;
+      font-size: 2em;
+    }
+    nav {
+      background-color: #a1887f;
+      padding: 10px;
+      text-align: center;
+    }
+    nav a {
+      color: white;
+      margin: 0 15px;
+      text-decoration: none;
+      font-weight: bold;
+    }
+    main {
+      padding: 20px;
+    }
+    .section {
+      background-color: #ffecb3;
+      border-left: 5px solid #ffb300;
+      margin-bottom: 20px;
+      padding: 15px;
+      border-radius: 5px;
+    }
+    footer {
+      background-color: #3e2723;
+      color: white;
+      text-align: center;
+      padding: 15px;
+      position: relative;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Mundo Reyes</h1>
+    <p>Guía interactiva del Museo Tumbas Reales de Sipán</p>
+  </header>
+
+  <nav>
+    <a href="index.html">Inicio</a>
+    <a href="piso1.html">Piso 1</a>
+    <a href="piso2.html">Piso 2</a>
+    <a href="piso3.html">Piso 3</a>
+  </nav>
+
+  <main>
+    <div class="section">
+      <h2>Bienvenidos al Mundo Reyes</h2>
+      <p>Explora las maravillas del antiguo Perú en esta guía digital del Museo Tumbas Reales de Sipán. Sumérgete en la historia, cultura y arte de los Mochicas.</p>
+    </div>
+
+    <div class="section">
+      <h2>¿Qué encontrarás?</h2>
+      <ul>
+        <li>Salas interactivas por piso</li>
+        <li>Fichas de cada pieza arqueológica</li>
+        <li>Mapas y recorrido virtual</li>
+      </ul>
+    </div>
+  </main>
+
+  <footer>
+    &copy; 2025 Mundo Reyes | Museo Tumbas Reales de Sipán
+  </footer>
+</body>
+</html>
